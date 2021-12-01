@@ -1,0 +1,48 @@
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft_magenta: hsl(300, 69%, 71%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    background: var(--violet);
+}
+
+.container {
+    display: flex;
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 50px;
+}
+
+.right {
+    color: white;
+}
+
+.right .title {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.right .description {
+    font-size: 18px;
+    font-weight: 400;
+}
